@@ -1,0 +1,31 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "resources.lib/1.0.0": {
+        "runtime": {
+          "resources.lib.dll": {}
+        },
+        "resources": {
+          "de-DE/resources.lib.resources.dll": {
+            "locale": "de-DE"
+          },
+          "sk-SK/resources.lib.resources.dll": {
+            "locale": "sk-SK"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "resources.lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
