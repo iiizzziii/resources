@@ -31,4 +31,13 @@ public class ResourceController : ControllerBase
     {
         return Ok(body.Body);
     }
+
+    [HttpGet]
+    [Route("error")]
+    public IActionResult ThrowError()
+    {
+        var error = new Exception(ResourceSetter.GetMessage("E_EXCEPTION"));
+
+        return Ok(error.Message);
+    }
 }
