@@ -34,3 +34,4 @@ C:\Users\moo\source\repos\resources\resources.api\bin\Debug\net8.0\resources.lib
 C:\Users\moo\source\repos\resources\resources.api\bin\Debug\net8.0\resources.lib.pdb
 C:\Users\moo\source\repos\resources\resources.api\bin\Debug\net8.0\de-DE\resources.lib.resources.dll
 C:\Users\moo\source\repos\resources\resources.api\bin\Debug\net8.0\sk-SK\resources.lib.resources.dll
+C:\Users\moo\source\repos\resources\resources.api\obj\Debug\net8.0\resources.api.sourcelink.json

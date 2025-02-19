@@ -38,9 +38,4 @@
     <ItemGroup>
         <InternalsVisibleTo Include="resources.api" />
     </ItemGroup>
-<!--    <ItemGroup>-->
-<!--        <EmbeddedResource Include="Resources\Messages.resx" />-->
-<!--        <EmbeddedResource Include="Resources\Messages.de-DE.resx" />-->
-<!--        <EmbeddedResource Include="Resources\Messages.sk-SK.resx" />-->
-<!--    </ItemGroup>-->
 </Project>

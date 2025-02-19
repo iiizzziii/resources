@@ -19,3 +19,4 @@ C:\Users\moo\source\repos\resources\resources.lib\obj\Debug\net8.0\de-DE\resourc
 C:\Users\moo\source\repos\resources\resources.lib\obj\Debug\net8.0\de-DE\resources.lib.resources.dll
 C:\Users\moo\source\repos\resources\resources.lib\obj\Debug\net8.0\sk-SK\resources.lib.resources.cs
 C:\Users\moo\source\repos\resources\resources.lib\obj\Debug\net8.0\sk-SK\resources.lib.resources.dll
+C:\Users\moo\source\repos\resources\resources.lib\obj\Debug\net8.0\resources.lib.sourcelink.json

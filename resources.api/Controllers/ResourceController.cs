@@ -1,6 +1,7 @@
 using System.Globalization;
 using System.Resources;
 using Microsoft.AspNetCore.Mvc;
+using resources.api.Models;
 using resources.api.Services;
 using resources.lib.Services;
 
@@ -11,10 +12,23 @@ namespace resources.api.Controllers;
 public class ResourceController : ControllerBase
 {
     [HttpGet]
+    [Route("culture")]
     public IActionResult GetCulture()
     {
-        var resource = ResourceSetter.GetMessage("LANGUAGE");
+        var response = new
+        {
+            ResourceLanguage = ResourceSetter.GetMessage("LANGUAGE"),
+            CurrentCulture = CultureInfo.CurrentCulture.DisplayName
+        };
         
-        return Ok(CultureInfo.CurrentCulture.DisplayName);
+        return Ok(response);
+    }
+
+    [HttpPost]
+    [Route("validation")]
+    public IActionResult ValidateRequest(
+        [FromBody] RequestDto body)
+    {
+        return Ok(body.Body);
     }
 }
