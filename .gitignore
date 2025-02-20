@@ -1,0 +1,15 @@
+resources.api/bin/
+resources.api/obj/
+resources.lib/bin/
+resources.lib/obj/
+resources.sln.DotSettings
+resources.sln.DotSettings.user
+riderModule.iml
+/_ReSharper.Caches/
+.idea/*
+*.user
+*.lock.json
+*.suo
+*.vs/
+*.vscode/
+*.DS_Store
