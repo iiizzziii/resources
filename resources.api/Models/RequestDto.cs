@@ -4,6 +4,7 @@ namespace resources.api.Models;
 
 public class RequestDto
 {
-    [LocalizedRequired("E_VALIDATION")]
+    // [LocalizedRequired("E_VALIDATION")]
+    [LocalizedRequired]
     public string Body { get; init; }
 }

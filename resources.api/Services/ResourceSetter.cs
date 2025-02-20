@@ -4,6 +4,7 @@ using resources.lib.Resources;
 
 namespace resources.api.Services;
 
+[Obsolete("use direct call: Class.Key")]
 public static class ResourceSetter
 {
     private static readonly ResourceManager ResourceManager = new(

@@ -1,9 +1,7 @@
 using System.Globalization;
-using System.Resources;
 using Microsoft.AspNetCore.Mvc;
 using resources.api.Models;
-using resources.api.Services;
-using resources.lib.Services;
+using resources.lib.Resources;
 
 namespace resources.api.Controllers;
 
@@ -17,7 +15,7 @@ public class ResourceController : ControllerBase
     {
         var response = new
         {
-            ResourceLanguage = ResourceSetter.GetMessage("LANGUAGE"),
+            ResourceLanguage = Messages.LANGUAGE,
             CurrentCulture = CultureInfo.CurrentCulture.DisplayName
         };
         
@@ -36,8 +34,14 @@ public class ResourceController : ControllerBase
     [Route("error")]
     public IActionResult ThrowError()
     {
-        var error = new Exception(ResourceSetter.GetMessage("E_EXCEPTION"));
+        var error = new Exception(Messages.E_EXCEPTION);
 
-        return Ok(error.Message);
+        var response = new
+        {
+            ErrorMessage = error.Message,
+            CurrentCulture = CultureInfo.CurrentCulture.DisplayName
+        };
+        
+        return Ok(response);
     }
 }

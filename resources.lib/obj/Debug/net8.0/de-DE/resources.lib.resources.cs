@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("resources.lib")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute(" ")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+809da640f9955f0b19779ea2123f29d8f9fdce72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc149276b505bf4296780a06517e8a9fb6e4a1c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("resources.lib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("resources.lib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
